@@ -13,10 +13,6 @@ class Song
     @@songs
   end
 
-  def initialize
-    save
-  end
-
   def self.all
     @@songs
   end

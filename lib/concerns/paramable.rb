@@ -3,7 +3,7 @@ module Paramable
     @name.downcase.gsub(" ", "-")
   end
 
-  def save
+  def initialize
     self.class.all << self
   end
 end
